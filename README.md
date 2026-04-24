@@ -1,135 +1,79 @@
-# Practical Linux Command Line Learning Roadmap
+# Telc A2/B1 Modeltest 1 - Reading (Lesen)
 
-## Beginner Level
+## Lesen Teil 1: Briefe/Anzeigen (Part 1: Ads)
 
-### 1. Basic Navigation & File Management
-* **pwd**: Show current directory
-* **ls, ls -l, ls -a**: List files and directories
-* **cd**: Change directory
-* **tree**: Visualize directory structure
-* **touch**: Create empty files
-* **mkdir, rmdir**: Create and remove directories
-* **cp, mv, rm**: Copy, move, and delete files/directories
+| Deutsch (Original) | English (Translation) |
+| :--- | :--- |
+| **Situationen (Aufgaben 1–5)** | **Situations (Tasks 1–5)** |
+| 1. Sie möchten einen Kuchen für eine Tauffeier bestellen. | 1. You would like to order a cake for a christening celebration. |
+| 2. Sie suchen ein romantisches Restaurant für ein Abendessen zu zweit. | 2. You are looking for a romantic restaurant for a dinner for two. |
+| 3. Sie planen eine Firmenveranstaltung für 100 Personen und benötigen einen Catering-Service. | 3. You are planning a company event for 100 people and need a catering service. |
+| 4. Sie möchten am Wochenende mit Freunden bowlen gehen. | 4. You want to go bowling with friends at the weekend. |
+| 5. Sie suchen eine Aushilfstätigkeit als Barkeeper. | 5. You are looking for a part-time job as a bartender. |
+| **Anzeigen (a–h)** | **Advertisements (a–h)** |
+| **a)** Suchen Sie das Besondere für Ihre Feier? Wir kreieren individuelle Torten für jeden Anlass. Bestellen Sie Ihren Wunschkuchen bei uns! | **a)** Looking for something special for your celebration? We create individual cakes for every occasion. Order your dream cake from us! |
+| **c)** Erleben Sie einen unvergesslichen Abend in unserem Restaurant mit Kerzenlicht und einem exquisiten Menü für Verliebte. | **c)** Experience an unforgettable evening in our restaurant with candlelight and an exquisite menu for lovers. |
+| **d)** Suchen Sie einen besonderen Catering-Service? Wir liefern Gourmet-Gerichte für Ihr nächstes Büro-Event. | **d)** Looking for a special catering service? We deliver gourmet dishes for your next office event. |
+| **e)** Kommen Sie zu uns und genießen Sie Bowling-Spaß mit der ganzen Familie oder mit Freunden. | **e)** Come to us and enjoy bowling fun with the whole family or with friends. |
+| **f)** Wir bieten Full-Service Catering für Firmenfeiern und große Events. | **f)** We offer full-service catering for company celebrations and large events. |
+| **g)** Sie haben Spaß am Mixen von Cocktails? Wir suchen Verstärkung für unser Bar-Team! | **g)** Do you enjoy mixing cocktails? We are looking for reinforcements for our bar team! |
 
-### 2. Viewing & Editing Files
-* **cat**: Concatenate and display file content
-* **less, more**: View file content page by page
-* **head, tail**: View the beginning/end of files
-* **nano, vi/vim**: Basic text editing
-
-### 3. User & Group Basics
-* **whoami**: Show current user
-* **id**: Show user and group IDs
-* **adduser, useradd**: Add new users
-* **passwd**: Set/change user password
-* **su, sudo**: Switch user, run as superuser
-
-### 4. Permissions & Ownership
-* **chmod**: Change file permissions
-* **chown**: Change file owner
-* **chgrp**: Change file group
-* **umask**: Default permission mask
-
-### 5. Getting Help
-* **man**: Manual pages for commands
-* **--help**: Command-specific help info
-* **info**: Extended documentation
+**Lösungen (Answers) Teil 1:**
+1: **a** | 2: **c** | 3: **f** | 4: **e** | 5: **g**
 
 ---
 
-## Intermediate Level
+## Lesen Teil 2: Büro-Richtlinien (Part 2: Office Guidelines)
 
-### 1. Process Management
-* **ps, ps -ef, ps aux**: List processes
-* **top, htop**: Real-time process monitoring
-* **pgrep, pkill**: Find/kill processes by name
-* **kill, killall**: Terminate processes by PID or name
-* **jobs, bg, fg**: Manage background/foreground jobs
+| Deutsch (Original) | English (Translation) |
+| :--- | :--- |
+| **Text** | **Text** |
+| Unser Büro möchte Ressourcen bewusster nutzen. Bitte verwenden Sie Papier doppelseitig. Altpapier gehört in die grüne Tonne. | Our office wants to use resources more consciously. Please use paper double-sided. Waste paper goes in the green bin. |
+| Um Wasser zu sparen, ist das Spülen von Hand nicht mehr gestattet. Nutzen Sie die Geschirrspülmaschine. | To save water, washing by hand is no longer permitted. Use the dishwasher. |
+| **Fragen (6–9)** | **Questions (6–9)** |
+| 6. In dem Betrieb ist bewusster Ressourcenumgang wichtig. (richtig/falsch?) | 6. Conscious use of resources is important in the company. (true/false?) |
+| 7. Altpapier kommt in die grüne Tonne. | 7. Waste paper goes into the green bin. |
+| 8. Die Geschirrspülmaschine soll einmal täglich angestellt werden. | 8. The dishwasher should be turned on once a day. |
+| 9. Um Strom zu sparen, sollte man Decken verwenden, anstatt die Heizung hochzudrehen. | 9. To save electricity, use blankets instead of turning up the heat. |
 
-### 2. Searching & Filtering
-* **grep**: Search text using patterns
-* **find**: Search for files and directories
-* **locate**: Quickly find files by name
-* **which, whereis**: Locate executables
-* **awk, sed**: Advanced text processing
-* **cut, sort, uniq, wc**: Manipulate and analyze text
-
-### 3. File Compression & Archiving
-* **tar**: Archive files
-* **gzip, gunzip**: Compress/decompress files
-* **zip, unzip**: Zip archive management
-
-### 4. Networking Basics
-* **ping**: Test network connectivity
-* **ifconfig, ip**: Network interface configuration
-* **netstat, ss**: Network statistics and sockets
-* **curl, wget**: Download files from the internet
-* **scp, sftp**: Secure file transfer
-* **ssh**: Secure shell access
-
-### 5. Disk Usage & Monitoring
-* **df**: Disk space usage
-* **du**: Directory/file space usage
-* **free**: Memory usage
-* **mount, umount**: Mount/unmount filesystems
-* **fdisk, lsblk**: Disk partitioning and block devices
-
-### 6. Package Management
-* **apt, apt-get**: Debian/Ubuntu package management
-* **yum, dnf**: RedHat/CentOS/Fedora package management
-* **snap**: Universal Linux packages
-* **dpkg, rpm**: Low-level package tools
+**Lösungen (Answers) Teil 2:**
+6: **richtig** | 7: **a** | 8: **b** | 9: **b**
 
 ---
 
-## Advanced Level
+## Lesen Teil 3: E-Mails (Part 3: Emails)
 
-### 1. Shell Scripting
-* **Writing bash scripts**: Shebang, variables, loops, conditionals, functions
-* **Script permissions and execution**
-* **Passing arguments to scripts**
+| Deutsch (Original) | English (Translation) |
+| :--- | :--- |
+| **E-Mails (10–13)** | **Emails (10–13)** |
+| 10. Die neue Software ist verfügbar. Zugangsdaten finden Sie im Teamordner. | 10. The new software is available. Access data can be found in the team folder. |
+| 11. Unsere Abteilung plant einen Ausflug ins Museum. | 11. Our department is planning a trip to the museum. |
+| 12. Wasserrohrbruch: Das Bürogebäude ist heute nicht zugänglich. | 12. Water pipe burst: The office building is not accessible today. |
+| 13. Wir benötigen zusätzliche Aushilfen für die Inventur. | 13. We need additional temporary helpers for the inventory. |
+| **Betreffzeilen (a–h)** | **Subject Lines (a–h)** |
+| **a)** Zugangsdaten und Anleitung | **a)** Access data and instructions |
+| **d)** Unterstützung bei Inventur | **d)** Support with inventory |
+| **f)** Team-Ausflug | **f)** Team outing |
+| **h)** Büroschließung | **h)** Office closure |
 
-### 2. Regular Expressions
-* **grep, sed, awk**: Advanced pattern matching and text processing
+**Lösungen (Answers) Teil 3:**
+10: **a** | 11: **f** | 12: **h** | 13: **d**
 
-### 3. System Services & Daemons
-* **systemctl, service**: Manage system services
-* **journalctl**: View system logs
-* **systemd basics**: Understanding units and targets
+---
 
-### 4. User & Group Management (Advanced)
-* **usermod, userdel**: Modify/delete users
-* **groupadd, groupdel**: Manage groups
-* **gpasswd**: Group password management
-* **visudo**: Edit sudoers file safely
+## Lesen Teil 4: Mobil im Alter (Part 4: Mobile in Old Age)
 
-### 5. Security & Permissions
-* **sudo, su**: Privilege escalation
-* **File ACLs**: Fine-grained permissions (setfacl, getfacl)
-* **ssh-keygen**: SSH key management
-* **ufw, iptables**: Firewall configuration
+| Deutsch (Original) | English (Translation) |
+| :--- | :--- |
+| **Text** | **Text** |
+| Der Service "Mobil im Alter" hilft Senioren in ländlichen Gegenden. Fahrer helfen beim Tragen der Einkäufe. | The "Mobile in Old Age" service helps seniors in rural areas. Drivers help with carrying groceries. |
+| Karl Schmidt arbeitet nur an Werktagen, findet die Arbeit aber sehr lohnenswert. | Karl Schmidt only works on weekdays but finds the work very rewarding. |
+| **Fragen (14–18)** | **Questions (14–18)** |
+| 14. "Mobil im Alter" Fahrzeuge besuchen Senioren, weil diese oft isoliert sind und Hilfe benötigen. | 14. "Mobile in Old Age" vehicles visit seniors because they are often isolated and need help. |
+| 15. Der Service hilft Senioren auch beim Einkaufstragen. | 15. The service also helps seniors with carrying their groceries. |
+| 16. Karl Schmidt arbeitet nur an Werktagen. | 16. Karl Schmidt only works on weekdays. |
+| 17. Die Fahrer sehen ihre Arbeit als sozialen Dienst. | 17. The drivers see their work as a social service. |
+| 18. Der Service wird als sozialer Treffpunkt geschätzt. | 18. The service is valued as a social meeting point. |
 
-### 6. Process & Resource Management
-* **nice, renice**: Adjust process priority
-* **ulimit**: User resource limits
-* **lsof**: List open files
-* **strace**: Trace system calls
-
-### 7. Networking (Advanced)
-* **ssh tunneling**: Secure port forwarding
-* **rsync**: Efficient file synchronization
-* **netcat (nc)**: Network debugging and data transfer
-* **nmap**: Network scanning and security auditing
-
-### 8. Automation & Scheduling
-* **cron**: Scheduled tasks
-* **at, anacron**: One-time and recurring jobs
-
-### 9. Version Control
-* **git**: Source code management (init, clone, add, commit, push, pull, branch, merge, log, status, diff)
-
-### 10. Monitoring & Logging
-* **tail -f**: Real-time log monitoring
-* **dmesg**: Kernel ring buffer messages
-* **watch**: Periodically run a command
-* **uptime, vmstat, iostat**: System performance
+**Lösungen (Answers) Teil 4:**
+14: **a** | 15: **b** | 16: **b** | 17: **c** | 18: **b**
